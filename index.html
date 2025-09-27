@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="csrf-token" content="7AonTWYYguP6DDVpQeXA553AOVSzHTYTrFRiPBBB">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="https://toolost.s3.us-east-2.amazonaws.com/assets/fav/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Too Lost</title>
+
+  <link rel="preload" as="style" href="https://distributionteam.github.io/build/vue/vue-moment.css" />
+  <link rel="preload" as="style" href="https://distributionteam.github.io/build/admin/admin.css" />
+  <link rel="modulepreload" href="https://distributionteam.github.io/build/admin/admin.js" />
+  <link rel="modulepreload" href="https://distributionteam.github.io/build/vue/vue-moment.js" />
+  <link rel="modulepreload" href="https://distributionteam.github.io/build/preload-helper.js" />
+  <link rel="modulepreload" href="https://distributionteam.github.io/build/moment/moment.js" />
+  <link rel="stylesheet" href="https://distributionteam.github.io/build/vue/vue-moment.css" />
+  <link rel="stylesheet" href="https://distributionteam.github.io/build/admin/admin.css" />
+  <script type="module" src="https://distributionteam.github.io/build/admin/admin.js"></script>
+  <link href="https://transloadit.edgly.net/releases/uppy/v1.21.1/uppy.min.css" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://toolost.s3.us-east-2.amazonaws.com/assets/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://toolost.s3.us-east-2.amazonaws.com/assets/fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://toolost.s3.us-east-2.amazonaws.com/assets/fav/favicon-16x16.png">
+  <link rel="manifest" href="https://toolost.s3.us-east-2.amazonaws.com/assets/fav/site.webmanifest">
+  <link rel="mask-icon" href="https://toolost.s3.us-east-2.amazonaws.com/assets/fav/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="https://toolost.s3.us-east-2.amazonaws.com/assets/fav/favicon.ico">
+</head>
+
+<body>
+
+  <!-- Vue Router -->
+  <div id="app">
+    <router-view class="view"></router-view>
+  </div>
+
+  <!-- Init Enviroment Variables -->
+  <script>
+    window.APP_URL = 'https://toolost.com/';
+    window.APP_URL = 'https://admin.toolost.com';
+    window.APP_TOKEN_URL = '.toolost.com';
+    window.APP_ENV = 'production';
+    window.ADMIN_VERSION = '1.5.9';
+    window.STRIPE_KEY = 'pk_live_c3VWXAHgeOtHkt8GN0Ma4uLe';
+    window.AWS_BUCKET = 'toolost';
+  </script>
+
+  <!-- Init Vue -->
+  <script src="https://kit.fontawesome.com/8021e849ce.js" crossorigin="anonymous"></script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"64f7ce772ab24e11a2b72c8931c0aba6","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+
+</html>
